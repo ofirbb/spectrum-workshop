@@ -74,11 +74,6 @@ Uncomment and run the first cell to download the demo pictures, and VGG19 weight
 * `VGG19_PATH` = path of VGG19 Pretrained weights. Default is `'models/vgg19-d01eb7cb.pth'`
 * `POOL`: Defines which pooling layer to use. The reference paper suggests using average pooling! Default is `'max'`
 
-## Todo!
-* Multiple Style blending
-* High-res Style Transfer
-* Color-preserving Style Transfer
-
 ## Credits!!!
 
 An implementation of the neural style in PyTorch! This notebook implements [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) by Leon Gatys, Alexander Ecker, and Matthias Bethge. Color preservation/Color transfer is based on the 2nd approach of discussed in [Preserving Color in Neural Artistic Style Transfer](https://arxiv.org/pdf/1606.05897.pdf) by Leon Gatys, Matthias Betge, Aaron Hertzmann, and Eli Schetman.
